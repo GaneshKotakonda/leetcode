@@ -48,7 +48,7 @@ public:
         for(int i=0;i<maxi;i++){
             TreeNode* one = q1.top();
             TreeNode* two = q2.top();
-            cout<<one->val<<" "<<two->val<<"\n";
+
 
             if(q1.size()!=q2.size()){
                 if(q1.size()>q2.size()){
