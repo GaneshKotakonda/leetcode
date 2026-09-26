@@ -1,7 +1,7 @@
 class Solution {
 public:
     int smallestIndex(vector<int>& nums) {
-        int ans=-1;
+        
 
         for(int i=0;i<nums.size();i++){
                 int num = nums[i];
@@ -14,6 +14,6 @@ public:
                     return i;
                 }
         }
-   return ans;
+   return -1;
     }
 };
